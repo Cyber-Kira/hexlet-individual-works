@@ -28,3 +28,5 @@ jobs:
     - run: npm run build --if-present
     - name: Code Climate Coverage Action
       uses: paambaati/codeclimate-action@v2.6.0
+      with:
+          coverageCommand: jest
