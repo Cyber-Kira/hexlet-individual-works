@@ -29,5 +29,5 @@ jobs:
     - name: Code Climate Coverage Action
       uses: paambaati/codeclimate-action@v2.6.0
       with:
-        coverageCommand: yarn coverage
+        coverageCommand: npm test -- --coverage
         debug: false
